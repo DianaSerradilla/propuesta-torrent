@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#F4F7FC;color:#0B1220;font-family:'Geist',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#0B1220;text-decoration:none}
+a:hover{color:#2F6FD0}
+input,button{font-family:inherit}
+::selection{background:#2F6FD0;color:#fff}
+@media print{.noprint{display:none!important}}
+</style>
+</helmet>
+
+<div style="min-height:100vh;background:#F4F7FC">
+
+
+
+<main style="max-width:1240px;margin:0 auto;padding:0 clamp(20px,4vw,48px)">
+
+<section data-screen-label="Hero" style="padding:clamp(56px,9vw,120px) 0 72px;background:#0B1220;color:#F4F7FC;box-shadow:0 0 0 100vmax #0B1220;clip-path:inset(0 -100vmax)">
+  <div style="display:flex;align-items:center;gap:14px;margin-bottom:36px">
+    <div style="width:64px;height:64px;border-radius:50%;background-image:url('uploads/pasted-1790198125652-0.png');background-size:78px auto;background-position:-7px -2px;background-repeat:no-repeat;flex:none"></div>
+    <span style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#8DB6EE">Torrent × Web + Tiendanube</span>
+  </div>
+  <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#9AA6BA;display:flex;gap:18px;flex-wrap:wrap">
+    <span>Propuesta para {{ clientName }}</span><span>Emitido 23.09.2026</span><span>Válido hasta 14.10.2026</span>
+  </div>
+  <h1 style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(52px,9vw,132px);line-height:.92;letter-spacing:-.02em;margin:28px 0 0;text-wrap:balance">Web institucional <em style="color:#4A86D8">+</em> tienda online, <em style="color:#8DB6EE">a medida.</em></h1>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:48px;margin-top:56px;align-items:end">
+    <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.55;color:#C3CCDA;margin:0;max-width:560px;text-wrap:pretty">Diseño, desarrollo, configuración y puesta online de una web institucional desarrollada a medida, junto con la creación y personalización de una tienda en Tiendanube. Una presencia digital coherente con la identidad de la marca, clara, moderna y adaptable a cualquier dispositivo.</p>
+    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid #4A86D8">
+      <div style="padding:18px 16px 18px 0;border-bottom:1px solid #1E2A3F;border-right:1px solid #1E2A3F">
+        <div style="font-size:13px;color:#9AA6BA">Inversión total</div>
+        <div style="font-family:'Instrument Serif',serif;font-size:44px;line-height:1.1;margin-top:4px">USD 2.000</div>
+      </div>
+      <div style="padding:18px 0 18px 16px;border-bottom:1px solid #1E2A3F">
+        <div style="font-size:13px;color:#9AA6BA">Plazo estimado</div>
+        <div style="font-family:'Instrument Serif',serif;font-size:44px;line-height:1.1;margin-top:4px">6 semanas</div>
+      </div>
+      <div style="padding:18px 16px 0 0;border-right:1px solid #1E2A3F">
+        <div style="font-size:13px;color:#9AA6BA">Productos cargados</div>
+        <div style="font-family:'Instrument Serif',serif;font-size:44px;line-height:1.1;margin-top:4px">hasta 50</div>
+      </div>
+      <div style="padding:18px 0 0 16px">
+        <div style="font-size:13px;color:#9AA6BA">Soporte posterior</div>
+        <div style="font-family:'Instrument Serif',serif;font-size:44px;line-height:1.1;margin-top:4px">30 días</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Mapa del sitio" style="padding:56px 0;border-bottom:1px solid #DCE3EE">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap">
+    <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#56627A">Mapa del sitio · tocá una sección</div>
+    <div style="font-size:14px;color:#56627A">Web institucional ↔ Tiendanube</div>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;align-items:center">
+    <sc-for list="{{ sitemap }}" as="s" hint-placeholder-count="6">
+      <button onClick="{{ s.go }}" style="{{ s.style }}">{{ s.label }}</button>
+    </sc-for>
+  </div>
+</section>
+
+<section id="alcance" data-screen-label="Alcance" style="padding:clamp(64px,8vw,104px) 0;border-bottom:1px solid #DCE3EE;scroll-margin-top:70px">
+  <div style="display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap">
+    <div>
+      <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#2F6FD0">01 — 08</div>
+      <h2 style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,5.5vw,72px);line-height:1;margin:12px 0 0;letter-spacing:-.01em">Alcance del proyecto</h2>
+    </div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;background:#E6ECF5;padding:4px;border-radius:999px">
+      <sc-for list="{{ phases }}" as="p" hint-placeholder-count="6">
+        <button onClick="{{ p.pick }}" style="{{ p.style }}">{{ p.label }}</button>
+      </sc-for>
+    </div>
+  </div>
+  <div style="margin-top:40px;border-bottom:1px solid #0B1220">
+    <sc-for list="{{ modules }}" as="m" hint-placeholder-count="8">
+      <div id="{{ m.anchor }}" style="{{ m.wrapStyle }}">
+        <button onClick="{{ m.toggle }}" style="{{ m.btnStyle }}" style-hover="color:#2F6FD0">
+          <span style="font-family:'Geist Mono',monospace;font-size:13px;color:#56627A">{{ m.num }}</span>
+          <span style="display:flex;flex-wrap:wrap;gap:6px 20px;align-items:baseline">
+            <span style="{{ m.titleStyle }}">{{ m.title }}</span>
+            <span style="font-size:15px;color:#56627A">{{ m.phaseLabel }} · {{ m.count }} ítems</span>
+          </span>
+          <span style="font-family:'Geist Mono',monospace;font-size:22px;width:28px;text-align:center">{{ m.sign }}</span>
+        </button>
+        <sc-if value="{{ m.open }}" hint-placeholder-val="{{ false }}">
+          <div style="{{ m.bodyStyle }}">
+            <div style="display:flex;flex-direction:column;gap:14px">
+              <p style="margin:0;font-size:17px;line-height:1.55;color:#2E3747;text-wrap:pretty">{{ m.intro }}</p>
+              <sc-if value="{{ m.hasNote }}" hint-placeholder-val="{{ false }}">
+                <p style="margin:0;font-size:14px;line-height:1.5;color:#56627A;padding-left:14px;border-left:1px solid #2F6FD0">{{ m.note }}</p>
+              </sc-if>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start">
+              <sc-for list="{{ m.items }}" as="it">
+                <span style="font-size:14px;padding:7px 12px;border:1px solid #C7D2E3;border-radius:999px;background:#FFFFFF">{{ it }}</span>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+      </div>
+    </sc-for>
+  </div>
+</section>
+
+<section id="etapas" data-screen-label="Etapas" style="padding:clamp(64px,8vw,104px) 0;border-bottom:1px solid #DCE3EE;scroll-margin-top:70px">
+  <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#2F6FD0">Cronograma</div>
+  <h2 style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,5.5vw,72px);line-height:1;margin:12px 0 0">Seis semanas, <em>tres hitos.</em></h2>
+  <p style="max-width:640px;font-size:17px;line-height:1.55;color:#2E3747;margin:20px 0 0;text-wrap:pretty">Desde el inicio efectivo del proyecto. La aprobación de cada etapa habilita la siguiente. Las demoras por falta de material, accesos o devoluciones no se computan dentro del plazo.</p>
+  <div style="margin-top:48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1px;background:#C7D2E3;border:1px solid #C7D2E3">
+    <sc-for list="{{ stages }}" as="st" hint-placeholder-count="4">
+      <button onMouseEnter="{{ st.pick }}" onClick="{{ st.pick }}" style="{{ st.style }}">
+        <span style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.7">{{ st.when }}</span>
+        <span style="font-family:'Instrument Serif',serif;font-size:34px;line-height:1.05">{{ st.title }}</span>
+        <span style="font-size:15px;line-height:1.5;opacity:.85">{{ st.desc }}</span>
+        <span style="margin-top:auto;font-family:'Geist Mono',monospace;font-size:13px">{{ st.gate }}</span>
+      </button>
+    </sc-for>
+  </div>
+</section>
+
+<section id="inversion" data-screen-label="Inversión" style="padding:clamp(64px,8vw,104px) 0;border-bottom:1px solid #DCE3EE;scroll-margin-top:70px">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:56px">
+    <div>
+      <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#2F6FD0">Forma de pago</div>
+      <h2 style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,5.5vw,72px);line-height:1;margin:12px 0 0">Inversión</h2>
+      <p style="font-size:16px;color:#56627A;margin:16px 0 0">Diseño UX/UI + Desarrollo Web Institucional + Implementación de Tiendanube</p>
+      <div style="font-family:'Instrument Serif',serif;font-size:clamp(72px,11vw,148px);line-height:.95;letter-spacing:-.02em;margin-top:28px">{{ totalLabel }}</div>
+      <div style="font-family:'Geist Mono',monospace;font-size:13px;color:#56627A;margin-top:10px">{{ totalHint }}</div>
+      <div class="noprint" style="margin-top:32px;display:flex;flex-direction:column;gap:14px">
+        <div style="display:flex;gap:4px;background:#E6ECF5;padding:4px;border-radius:999px;width:max-content;max-width:100%">
+          <sc-for list="{{ currencies }}" as="c" hint-placeholder-count="3">
+            <button onClick="{{ c.pick }}" style="{{ c.style }}">{{ c.label }}</button>
+          </sc-for>
+        </div>
+        <sc-if value="{{ isArs }}" hint-placeholder-val="{{ false }}">
+          <label style="display:flex;align-items:center;gap:12px;font-size:14px;color:#2E3747;flex-wrap:wrap">
+            <span>Cotización acordada · 1 USD =</span>
+            <span style="display:flex;align-items:center;border-bottom:1px solid #0B1220;padding:4px 0">
+              <span style="font-family:'Geist Mono',monospace">ARS&nbsp;</span>
+              <input value="{{ rate }}" onChange="{{ setRate }}" inputMode="numeric" style="all:unset;font-family:'Geist Mono',monospace;width:110px" placeholder="0"></input>
+            </span>
+          </label>
+          <p style="margin:0;font-size:13px;line-height:1.5;color:#56627A;max-width:460px">En pesos, el importe se recalcula al momento de cada pago sobre el saldo expresado en USD, según la cotización del día efectivo del pago.</p>
+        </sc-if>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;justify-content:flex-end;gap:0">
+      <div style="display:flex;height:14px;gap:3px;margin-bottom:28px">
+        <div style="flex:50;background:#0B1220;border-radius:3px"></div>
+        <div style="flex:30;background:#2F6FD0;border-radius:3px"></div>
+        <div style="flex:20;background:#C7D2E3;border-radius:3px"></div>
+      </div>
+      <sc-for list="{{ payments }}" as="p" hint-placeholder-count="3">
+        <div style="display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:16px;align-items:baseline;padding:20px 0;border-top:1px solid #0B1220">
+          <span style="font-family:'Instrument Serif',serif;font-size:36px;line-height:1">{{ p.pct }}</span>
+          <span style="font-size:16px;line-height:1.4">{{ p.label }}</span>
+          <span style="font-family:'Geist Mono',monospace;font-size:16px;white-space:nowrap">{{ p.amount }}</span>
+        </div>
+      </sc-for>
+      <div style="border-top:1px solid #0B1220;padding-top:20px;display:flex;flex-direction:column;gap:8px;font-size:14px;line-height:1.5;color:#56627A">
+        <span>El proyecto comienza una vez acreditado el primer pago.</span>
+        <span>Se acepta USD, USDT o ARS. Costos y comisiones del medio de pago a cargo del cliente, salvo acuerdo diferente.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="incluye" data-screen-label="¿Incluye?" style="padding:clamp(64px,8vw,104px) 0;border-bottom:1px solid #DCE3EE;scroll-margin-top:70px">
+  <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#2F6FD0">Exclusiones</div>
+  <h2 style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,5.5vw,72px);line-height:1;margin:12px 0 0">¿Está incluido?</h2>
+  
+  <div style="margin-top:40px;display:flex;flex-direction:column;gap:24px">
+    <div style="background:#FFFFFF;border:1px solid #DCE3EE;border-radius:20px;padding:28px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px">
+        <span style="font-size:20px;font-weight:500">Incluido</span>
+        <span style="font-family:'Geist Mono',monospace;font-size:13px;color:#56627A">{{ inCount }}</span>
+      </div>
+      <div style="margin-top:18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));column-gap:32px">
+        <sc-for list="{{ inList }}" as="r" hint-placeholder-count="6">
+          <div style="display:grid;grid-template-columns:20px minmax(0,1fr) auto;gap:10px;padding:10px 0;border-top:1px solid #E6ECF5;font-size:15px;align-items:baseline">
+            <span style="color:#2F6FD0">✓</span><span>{{ r.text }}</span><span></span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+    <div style="background:#0B1220;color:#F4F7FC;border-radius:20px;padding:28px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px">
+        <span style="font-size:20px;font-weight:500">No incluido</span>
+        <span style="font-family:'Geist Mono',monospace;font-size:13px;color:#9AA6BA">{{ outCount }}</span>
+      </div>
+      <div style="margin-top:18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));column-gap:32px">
+        <sc-for list="{{ outList }}" as="r" hint-placeholder-count="6">
+          <div style="display:grid;grid-template-columns:20px minmax(0,1fr) auto;gap:10px;padding:10px 0;border-top:1px solid #1E2A3F;font-size:15px;align-items:baseline">
+            <span style="color:#8DB6EE">×</span><span>{{ r.text }}</span><span></span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:24px;background:#4A86D8;color:#fff;box-shadow:inset 0 0 0 1px #2F6FD0;border-radius:20px;padding:clamp(24px,3.5vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:24px 48px;align-items:start">
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <span style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase">Importante</span>
+      <p style="margin:0;font-family:'Instrument Serif',serif;font-size:clamp(26px,3vw,38px);line-height:1.15;text-wrap:pretty">Los servicios de terceros se contratan y abonan directamente por el cliente.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px">
+        <span style="font-size:13px;padding:5px 11px;border:1px solid rgba(255,255,255,.7);border-radius:999px">Tiendanube</span>
+        <span style="font-size:13px;padding:5px 11px;border:1px solid rgba(255,255,255,.7);border-radius:999px">Hosting</span>
+        <span style="font-size:13px;padding:5px 11px;border:1px solid rgba(255,255,255,.7);border-radius:999px">Dominio</span>
+        <span style="font-size:13px;padding:5px 11px;border:1px solid rgba(255,255,255,.7);border-radius:999px">Pasarelas de pago</span>
+        <span style="font-size:13px;padding:5px 11px;border:1px solid rgba(255,255,255,.7);border-radius:999px">Logística</span>
+        <span style="font-size:13px;padding:5px 11px;border:1px solid rgba(255,255,255,.7);border-radius:999px">APIs</span>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:10px;border-top:1px solid rgba(255,255,255,.5);padding-top:20px">
+      <span style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase">Después del soporte</span>
+      <p style="margin:0;font-family:'Instrument Serif',serif;font-size:clamp(26px,3vw,38px);line-height:1.15;text-wrap:pretty">Los trabajos posteriores a los 30 días de soporte se presupuestan individualmente.</p>
+    </div>
+  </div>
+</section>
+
+<section id="materiales" data-screen-label="Materiales" style="padding:clamp(64px,8vw,104px) 0;border-bottom:1px solid #DCE3EE;scroll-margin-top:70px">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:48px">
+    <div>
+      <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#2F6FD0">Materiales</div>
+      <h2 style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,5.5vw,72px);line-height:1;margin:12px 0 0">Lo que necesito <em>de tu lado.</em></h2>
+      <p style="font-size:16px;line-height:1.55;color:#2E3747;margin:20px 0 0;max-width:440px">Para cumplir el plazo, necesito recibir esta información y materiales al inicio del proyecto.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:0 32px;align-content:start;border-bottom:1px solid #C7D2E3">
+      <sc-for list="{{ materials }}" as="mt" hint-placeholder-count="16">
+        <div style="display:grid;grid-template-columns:32px minmax(0,1fr);gap:8px;align-items:baseline;padding:14px 0;border-top:1px solid #C7D2E3;font-size:16px">
+          <span style="font-family:'Geist Mono',monospace;font-size:12px;color:#8793A8">{{ mt.num }}</span>
+          <span>{{ mt.label }}</span>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section id="condiciones" data-screen-label="Condiciones" style="padding:clamp(64px,8vw,104px) 0;border-bottom:1px solid #DCE3EE;scroll-margin-top:70px">
+  <div style="display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap">
+    <div>
+      <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#2F6FD0">Condiciones</div>
+      <h2 style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,5.5vw,72px);line-height:1;margin:12px 0 0">La letra chica, <em>clara.</em></h2>
+    </div>
+    <button class="noprint" onClick="{{ toggleAllConds }}" style="all:unset;cursor:pointer;font-size:14px;padding:10px 18px;border:1px solid #0B1220;border-radius:999px" style-hover="background:#0B1220;color:#F4F7FC">{{ allCondsLabel }}</button>
+  </div>
+  <div style="margin-top:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:0 48px">
+    <sc-for list="{{ conds }}" as="cd" hint-placeholder-count="12">
+      <div style="border-top:1px solid #C7D2E3">
+        <button onClick="{{ cd.toggle }}" style="all:unset;box-sizing:border-box;width:100%;cursor:pointer;display:grid;grid-template-columns:44px minmax(0,1fr) 24px;gap:12px;align-items:baseline;padding:18px 0" style-hover="color:#2F6FD0">
+          <span style="font-family:'Geist Mono',monospace;font-size:13px;color:#56627A">{{ cd.num }}</span>
+          <span style="font-size:18px;font-weight:500">{{ cd.title }}</span>
+          <span style="font-family:'Geist Mono',monospace;font-size:18px;text-align:center">{{ cd.sign }}</span>
+        </button>
+        <sc-if value="{{ cd.open }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:0 0 24px 56px;display:flex;flex-direction:column;gap:12px">
+            <sc-for list="{{ cd.paras }}" as="pa">
+              <p style="margin:0;font-size:15px;line-height:1.6;color:#2E3747;text-wrap:pretty">{{ pa }}</p>
+            </sc-for>
+            <sc-if value="{{ cd.hasItems }}" hint-placeholder-val="{{ false }}">
+              <div style="display:flex;flex-wrap:wrap;gap:6px">
+                <sc-for list="{{ cd.items }}" as="ci">
+                  <span style="font-size:13px;padding:5px 10px;background:#E6ECF5;border-radius:999px">{{ ci }}</span>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+        </sc-if>
+      </div>
+    </sc-for>
+  </div>
+</section>
+
+<section id="aceptar" data-screen-label="Aceptación" style="padding:clamp(64px,8vw,104px) 0 clamp(80px,10vw,140px);scroll-margin-top:70px">
+  <div style="background:#0B1220;color:#F4F7FC;border-radius:28px;padding:clamp(32px,5vw,64px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:48px">
+    <div>
+      <div style="font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#8DB6EE">Validez</div>
+      <div style="font-family:'Instrument Serif',serif;font-size:clamp(96px,14vw,180px);line-height:.9;margin-top:18px">{{ daysLeft }}</div>
+      <div style="font-size:18px;margin-top:8px">{{ daysLabel }}</div>
+      <p style="font-size:14px;line-height:1.55;color:#9AA6BA;margin:20px 0 0;max-width:420px">Validez de 3 semanas desde la emisión (23.09.2026). Finalizado el período, el valor, las condiciones y la disponibilidad podrán revisarse antes de comenzar.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:18px;justify-content:flex-end">
+      <h2 style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(36px,4.5vw,56px);line-height:1;margin:0">Aceptación</h2>
+      <p style="font-size:15px;line-height:1.55;color:#C3CCDA;margin:0">La aprobación del presente presupuesto y el pago inicial implican la aceptación del alcance, condiciones, exclusiones y modalidad de trabajo aquí detallados.</p>
+      <a href="https://wa.me/5492615523328?text=Acepto%20presupuesto" target="_blank" rel="noopener" style="display:flex;justify-content:center;align-items:center;gap:10px;padding:18px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#2F6FD0;color:#fff;margin-top:6px" style-hover="background:#8DB6EE;color:#0B1220">Aceptar presupuesto por WhatsApp →</a>
+      
+      
+    </div>
+  </div>
+</section>
+
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;clientName&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Torrent&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;defaultCurrency&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;USD&quot;,&quot;USDT&quot;,&quot;ARS&quot;],&quot;default&quot;:&quot;USD&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;arsRate&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:1400,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Pagos en pesos&quot;}}">
+const MODS = [
+ {n:1,ph:'diseno',t:'Diseño UX/UI',a:'Diseño visual completo desde cero en Figma, tomando como base la identidad visual existente de la marca.',i:['Estructura general del sitio','Arquitectura de contenidos','Diseño UX/UI personalizado','Jerarquías visuales','Colores, tipografías y recursos de marca','Botones, tarjetas, banners y componentes','Navegación principal y footer','Desktop, tablet y mobile','Prototipo visual previo al desarrollo'],note:'Secciones: Inicio, Nosotros, Productos, Recetas, Contacto, navegación general y accesos a Tiendanube.'},
+ {n:2,ph:'desarrollo',t:'Desarrollo web institucional',a:'Desarrollada a medida mediante código, respetando el diseño previamente aprobado.',i:['Frontend personalizado','Maquetación responsive','Navegación','Botones y enlaces','Medios de contacto','Redes sociales','Integración con Instagram','Acceso a la tienda online','Implementación de contenidos','Optimización de imágenes','Optimización de rendimiento','Navegadores modernos','Revisión previa a publicación']},
+ {n:3,ph:'desarrollo',t:'Inicio',a:'Podrá incluir, según lo definido durante la etapa de diseño:',i:['Presentación de la marca','Banners destacados','Productos o categorías destacadas','Accesos a la tienda','Información institucional','Beneficios o diferenciales','Accesos a recetas','Redes sociales','Llamados a la acción','Información de contacto'],note:'La estructura definitiva se establece durante el diseño UX/UI.'},
+ {n:4,ph:'desarrollo',t:'Nosotros',a:'Podrá contemplar:',i:['Historia de la empresa','Filosofía de marca','Valores','Diferenciales','Información institucional','Fotografías del cliente']},
+ {n:5,ph:'desarrollo',t:'Productos',a:'Sección institucional para presentar líneas, categorías o productos de la marca.',i:['Categorías','Productos destacados','Fotografías','Descripciones breves','Botones de compra','Accesos directos a Tiendanube'],note:'Carrito, pagos, pedidos y proceso de compra se gestionan dentro de Tiendanube.'},
+ {n:6,ph:'desarrollo',t:'Recetas',a:'Contenidos o preparaciones, cada una vinculable con publicaciones o videos de Instagram.',i:['Tarjetas o bloques de recetas','Imagen de portada','Título','Descripción breve','Botón o enlace externo','Vinculación con Instagram'],note:'Los videos permanecen alojados en Instagram.'},
+ {n:7,ph:'desarrollo',t:'Contacto',a:'Podrá incluir:',i:['Información de contacto','Teléfono','WhatsApp','Correo electrónico','Redes sociales','Botones de contacto directo','Dirección o ubicación','Horarios de atención'],note:'No se contempla inicialmente un formulario de contacto; puede evaluarse y presupuestarse por separado.'},
+ {n:8,ph:'tienda',t:'Creación y configuración de Tiendanube',a:'Puesta en marcha completa de la tienda.',i:['Configuración general','Identidad visual','Información comercial','Datos del negocio','Estructura de navegación','Organización de categorías','Páginas necesarias','Vinculación con la web']},
+ {n:9,ph:'tienda',t:'Personalización visual de Tiendanube',a:'Adaptación visual para mantener coherencia con el diseño general de la marca.',i:['Colores','Tipografías','Banners','Imágenes','Botones','Navegación','Página principal','Categorías','Fichas de producto','Personalización por código según plan'],note:'Sujeta a las posibilidades técnicas y limitaciones propias de Tiendanube.'},
+ {n:10,ph:'tienda',t:'Carga de productos',a:'Configuración y carga de hasta 50 productos.',i:['Nombre','Fotografías del cliente','Descripción','Precio','Categoría','Variantes','Stock inicial','Información básica','Organización del catálogo'],note:'Los productos adicionales pueden presupuestarse por separado.'},
+ {n:11,ph:'tienda',t:'Medios de pago',a:'Configuración inicial de los medios elegidos por el cliente y compatibles con Tiendanube.',i:['Mercado Pago','Transferencia bancaria','Otros medios de la plataforma'],note:'Creación, verificación y mantenimiento de las cuentas a cargo del cliente.'},
+ {n:12,ph:'tienda',t:'Envíos',a:'Configuración inicial de:',i:['Envíos a domicilio','Retiro en punto físico','Tarifas de envío','Zonas de entrega','Integraciones de Tiendanube'],note:'No incluye costos de proveedores logísticos.'},
+ {n:13,ph:'lanzamiento',t:'Dominio',a:'Configuración técnica para vincular el dominio proporcionado o contratado por el cliente.',i:['Configuración DNS y vinculación'],note:'No incluye compra, renovación o transferencia del dominio.'},
+ {n:14,ph:'contenido',t:'Copywriting',a:'Redacción y adaptación de textos generales necesarios para el proyecto.',i:['Adaptación de textos','Textos institucionales básicos','Corrección de estilo','Ajustes de tono','Títulos','Subtítulos','Llamados a la acción','Descripciones generales'],note:'No incluye estrategia verbal integral, naming o branding.'},
+ {n:15,ph:'contenido',t:'SEO básico',a:'Buenas prácticas de base para buscadores.',i:['Estructura de encabezados','Títulos de páginas','Meta descripciones','URLs claras','Textos alternativos','Optimización de contenido','Estructura semántica'],note:'No incluye campañas SEO, posicionamiento garantizado, link building ni contenido periódico.'},
+ {n:16,ph:'lanzamiento',t:'Optimización y testing',a:'Revisión integral antes del lanzamiento.',i:['Compresión de imágenes','Peso de recursos','Adaptación responsive','Navegación','Enlaces','Navegadores modernos','Carrito','Flujo de compra','Corrección de errores']},
+ {n:17,ph:'lanzamiento',t:'Puesta online y entrega',a:'Una vez aprobadas las etapas correspondientes:',i:['Publicación de la web','Vinculación con dominio','Publicación de Tiendanube','Integración entre ambos sitios','Revisión post-publicación','Entrega funcional']}
+];
+const PH = [['todo','Todo'],['diseno','Diseño'],['desarrollo','Desarrollo'],['tienda','Tiendanube'],['contenido','Contenido'],['lanzamiento','Lanzamiento']];
+const PHL = Object.fromEntries(PH);
+const PARENT = {3:2,4:2,5:2,6:2,7:2,9:8,10:8,11:8,12:8};
+const LABEL = (() => { const o={}; let top=0, sub=0; MODS.forEach(m => { if (PARENT[m.n]) { sub++; o[m.n]=String(top).padStart(2,'0')+'.'+sub; } else { top++; sub=0; o[m.n]=String(top).padStart(2,'0'); } }); return o; })();
+const SITE = [['Inicio',3],['Nosotros',4],['Productos',5],['Recetas',6],['Contacto',7],['↔',null],['Tiendanube',8]];
+const STAGES = [
+ {when:'Inicio',title:'Diseño en Figma',desc:'Estructura, arquitectura de contenidos y prototipo visual. Las modificaciones principales se piden en esta etapa.',gate:'50% · USD 1.000 al iniciar'},
+ {when:'Aprobación',title:'Desarrollo',desc:'Web a medida y configuración de Tiendanube. Cambios estructurales posteriores pueden actualizar presupuesto y plazo.',gate:'30% · USD 600 al aprobar diseño'},
+ {when:'Pre-lanzamiento',title:'Testing',desc:'Navegación, enlaces, responsive, carrito y flujo de compra. Los errores propios del desarrollo no son cambios adicionales.',gate:'Revisión general'},
+ {when:'Semana 6',title:'Publicación',desc:'Web + tienda online, vinculadas al dominio. Arrancan los 30 días de soporte.',gate:'20% · USD 400 a la entrega'}
+];
+const PAY = [[50,'Inicio del proyecto',1000],[30,'Aprobación del diseño y comienzo del desarrollo',600],[20,'Entrega final y publicación',400]];
+const OUT = {
+ '32':['Fotografía de producto','Producción fotográfica','Producción audiovisual','Filmación o edición de videos','Creación de Reels','Gestión de redes sociales','Community management','Publicidad','Branding','Rediseño de logotipo','Identidad visual completa','Naming','Plan mensual de Tiendanube','Comisiones de plataformas de pago','Plataformas de email marketing','Carga de más de 50 productos','Gestión continua de catálogo','Actualización permanente de precios o stock','Generación periódica de recetas','SEO avanzado','Posicionamiento garantizado','Integraciones no contempladas','ERP','Sistemas administrativos personalizados','Asesoramiento contable','Asesoramiento impositivo','Asesoramiento jurídico','Redacción de textos legales','Formulario de contacto con almacenamiento'],
+ '23':['Tiendanube','Hosting','Dominio','Aplicaciones pagas','Mercado Pago u otras pasarelas','Servicios logísticos','APIs','Plataformas de email','Servicios de almacenamiento','Herramientas externas'],
+ '20':['Nuevas secciones post-entrega','Nuevas funcionalidades','Rediseños']
+};
+const SUPPORT_IN = ['Corrección de errores del desarrollo','Corrección de enlaces','Ajustes menores de funcionamiento','Pequeñas correcciones de contenido'];
+const MATS = ['Logotipo','Manual de identidad','Fotografías institucionales','Fotografías de producto','Información de productos','Precios','Variantes','Stock','Categorías','Información comercial','Datos de contacto','Redes sociales','Datos para medios de pago','Métodos de envío','Accesos al dominio','Información institucional'];
+const CONDS = [
+ {n:18,t:'Plazo estimado',p:['6 semanas a partir del inicio efectivo del proyecto, contemplando diseño, revisión, desarrollo, configuración, testing y publicación.','El plazo está sujeto a los tiempos de entrega de información, materiales, accesos y devoluciones del cliente. Las demoras por esos motivos no se computan y pueden extender proporcionalmente la entrega.','El cronograma puede modificarse si se solicitan cambios fuera del alcance acordado.']},
+ {n:19,t:'Revisiones y aprobaciones',p:['Las modificaciones principales deben solicitarse durante la etapa de diseño en Figma. La aprobación de una etapa habilita la siguiente.','Aprobado el diseño y comenzado el desarrollo, los cambios estructurales o rediseños pueden requerir actualizar presupuesto y plazo. Las correcciones de errores propios del desarrollo no son cambios adicionales.']},
+ {n:20,t:'Soporte posterior',p:['30 días de soporte posteriores a la publicación. Luego, los trabajos se presupuestan individualmente.','Incluye:'],it:['Errores del desarrollo','Enlaces','Ajustes menores','Problemas de la implementación inicial','Pequeñas correcciones de contenido']},
+ {n:23,t:'Servicios y costos de terceros',p:['El presupuesto no incluye costos de plataformas o proveedores externos. Se contratan y abonan directamente por el cliente.','Los cambios de precio, condiciones o políticas de dichos proveedores son ajenos al profesional.'],it:OUT['23']},
+ {n:24,t:'Responsabilidad sobre contenidos',p:['El cliente es responsable de la veracidad, legalidad y autorización de uso de los materiales proporcionados, y declara contar con los derechos necesarios.','El profesional no es responsable por reclamos de terceros originados en dichos materiales.'],it:['Fotografías','Videos','Logotipos','Tipografías','Textos','Marcas','Información comercial','Precios','Promociones','Datos de productos','Declaraciones comerciales']},
+ {n:25,t:'Información comercial y operación',p:['Tras la entrega, el cliente mantiene actualizada la información comercial publicada.','El profesional implementa técnicamente la información dentro del alcance, pero no determina su validez comercial, fiscal o jurídica.'],it:['Precios','Stock','Descripciones','Promociones','Políticas de envío','Plazos de entrega','Medios de pago','Información fiscal','Información societaria','Condiciones de venta','Devoluciones o cambios']},
+ {n:26,t:'Privacidad y datos personales',p:['Si la web o la tienda recopila datos personales, el cliente define y mantiene las políticas legales correspondientes. En Argentina, la Ley 25.326 regula su tratamiento.','La redacción jurídica de políticas de privacidad o términos legales no forma parte del presupuesto, salvo contratación adicional.'],it:['Política de privacidad','Tratamiento de datos','Cookies','Analítica','Bases de clientes','Comunicaciones comerciales']},
+ {n:27,t:'Condiciones de venta y defensa del consumidor',p:['La tienda debe cumplir las obligaciones de información de la actividad del cliente (Ley 24.240).','La elaboración o validación jurídica de estos documentos es responsabilidad del cliente, revisada por un profesional jurídico o contable. El alcance contempla solo su implementación técnica.'],it:['Términos y condiciones','Devoluciones','Cambios','Condiciones de venta','Información fiscal','Garantía','Documentación legal']},
+ {n:28,t:'Interrupciones de servicios externos',p:['El profesional no es responsable por fallas, interrupciones o modificaciones de servicios ajenos al desarrollo.','Si un cambio posterior de una plataforma externa requiere modificar el proyecto, puede presupuestarse aparte.'],it:['Tiendanube','Hosting','Servidores','Dominios','APIs','Instagram','Mercado Pago','Logística']},
+ {n:29,t:'Cancelación o suspensión',p:['Si el cliente cancela una vez iniciado, los pagos de etapas comenzadas o completadas no son reintegrables. Se entrega el trabajo realizado una vez abonadas esas etapas.','Si el proyecto queda detenido por un período prolongado por falta de información o aprobaciones, el cronograma queda sin efecto y se coordina una nueva fecha según disponibilidad.']},
+ {n:30,t:'Cambios adicionales',p:['Toda solicitud fuera del alcance se evalúa antes de realizarse. Según su complejidad, puede incluirse, presupuestarse como intervención adicional o requerir un presupuesto independiente.','Ningún trabajo adicional significativo se realiza sin informar previamente al cliente.']},
+ {n:31,t:'Propiedad, entrega y portfolio',p:['Con el pago total, se realiza la entrega definitiva: acceso a Tiendanube, dominio y configuraciones, proyecto publicado y recursos finales.','El profesional puede usar el proyecto en portfolio, web, redes, casos de estudio y propuestas, sin publicar información confidencial, accesos ni datos privados. Toda restricción debe acordarse por escrito antes de iniciar.']}
+];
+const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const LS = 'presupuesto-web-v1';
+const fmt = n => n.toLocaleString('es-AR',{maximumFractionDigits:0});
+
+class Component extends DCLogic {
+  constructor(p){
+    super(p);
+    let saved = {};
+    try { saved = JSON.parse(localStorage.getItem(LS) || '{}'); } catch(e) {}
+    this.state = { open:1, phase:'todo', stage:0, currency:null, rate:null, query:'', openConds:{}, mats:saved.mats||{}, signName:'', agree:false, accepted:saved.accepted||null };
+  }
+  save(){ try { localStorage.setItem(LS, JSON.stringify({mats:this.state.mats, accepted:this.state.accepted})); } catch(e) {} }
+  goModule(n){
+    this.setState({open:n, phase:'todo'}, () => {
+      const el = document.getElementById('mod-'+n);
+      if (el) window.scrollTo({top: el.getBoundingClientRect().top + window.scrollY - 80, behavior:'smooth'});
+    });
+  }
+  renderVals(){
+    const s = this.state, P = this.props;
+    const cur = s.currency || P.defaultCurrency || 'USD';
+    const rate = s.rate ?? String(P.arsRate ?? '');
+    const pill = on => `all:unset;cursor:pointer;font-size:14px;padding:8px 16px;border-radius:999px;transition:background .2s,color .2s;${on?'background:#0B1220;color:#F4F7FC':'color:#2E3747'}`;
+    const toObj = str => Object.fromEntries(str.split(';').filter(Boolean).map(d => { const i=d.indexOf(':'); return [d.slice(0,i).trim().replace(/-([a-z])/g,(_,c)=>c.toUpperCase()), d.slice(i+1).trim()]; }));
+    const px = str => toObj(str);
+
+    const modules = MODS.filter(m => s.phase==='todo' || m.ph===s.phase).map(m => ({
+      anchor:'mod-'+m.n, num:LABEL[m.n], title:m.t,
+      wrapStyle:px(PARENT[m.n] ? 'border-top:1px solid #DCE3EE;margin-left:clamp(24px,5vw,72px);scroll-margin-top:80px' : 'border-top:1px solid #0B1220;scroll-margin-top:80px'),
+      btnStyle:px(`all:unset;box-sizing:border-box;width:100%;cursor:pointer;display:grid;grid-template-columns:${PARENT[m.n]?'64px':'56px'} minmax(0,1fr) auto;gap:16px;align-items:baseline;padding:${PARENT[m.n]?'16px 0':'22px 0'}`),
+      titleStyle:px(PARENT[m.n] ? 'font-size:clamp(17px,1.7vw,21px);font-weight:500' : 'font-size:clamp(20px,2.2vw,28px);font-weight:500;letter-spacing:-.01em'),
+      bodyStyle:px(`display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:24px 48px;padding:0 0 32px ${PARENT[m.n]?'80px':'72px'}`), phaseLabel:PHL[m.ph], count:m.i.length,
+      intro:m.a, items:m.i, note:m.note||'', hasNote:!!m.note, open:s.open===m.n, sign:s.open===m.n?'−':'+',
+      toggle:() => this.setState({open: s.open===m.n?null:m.n})
+    }));
+    const phases = PH.map(([k,l]) => ({label:l, style:px(pill(s.phase===k)), pick:() => this.setState({phase:k})}));
+    const sitemap = SITE.map(([l,n]) => n==null
+      ? {label:l, style:px('all:unset;font-family:Geist Mono,monospace;color:#9AA6BA;padding:0 6px'), go:()=>{}}
+      : {label:l, go:() => this.goModule(n), style:px(`all:unset;cursor:pointer;font-size:clamp(18px,2vw,24px);padding:14px 24px;border-radius:999px;transition:all .2s;${s.open===n?'background:#2F6FD0;color:#fff;border:1px solid #2F6FD0':(n===8?'background:#0B1220;color:#F4F7FC;border:1px solid #0B1220':'border:1px solid #0B1220')}`)});
+    const stages = STAGES.map((st,i) => ({...st, pick:() => this.setState({stage:i}),
+      style:px(`all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:14px;padding:28px;min-height:300px;transition:background .25s,color .25s;${s.stage===i?'background:#2F6FD0;color:#fff':'background:#F4F7FC;color:#0B1220'}`)}));
+
+    const r = parseFloat(String(rate).replace(/\./g,'').replace(',','.'));
+    const amt = usd => cur==='ARS' ? (r>0 ? 'ARS '+fmt(usd*r) : 'ARS —') : cur+' '+fmt(usd);
+    const payments = PAY.map(([p,l,u]) => ({pct:p+'%', label:l, amount:amt(u)}));
+    const currencies = ['USD','USDT','ARS'].map(c => ({label:c, style:px(pill(cur===c)), pick:() => this.setState({currency:c})}));
+
+    const inPool = [];
+    MODS.forEach(m => { inPool.push({text:m.t, src:String(m.n).padStart(2,'0')}); m.i.forEach(t => inPool.push({text:t, src:String(m.n).padStart(2,'0')})); });
+    SUPPORT_IN.forEach(t => inPool.push({text:t, src:'20'}));
+    const outPool = [];
+    Object.entries(OUT).forEach(([k,arr]) => arr.forEach(t => outPool.push({text:t, src:k})));
+    const q = norm(s.query.trim());
+    const dedupe = arr => { const seen=new Set(); return arr.filter(x => { const k=norm(x.text); if(seen.has(k)) return false; seen.add(k); return true; }); };
+    const match = arr => q ? dedupe(arr.filter(x => norm(x.text).includes(q))) : [];
+    let inList = match(inPool), outList = match(outPool);
+    const inDefault = ['Diseño UX/UI','Desarrollo web institucional','Creación y configuración de Tiendanube','Carga de productos','Copywriting','SEO básico','Puesta online y entrega'].map(t => inPool.find(x=>x.text===t));
+    const outDefault = ['Fotografía de producto','Branding','Hosting','Dominio','Plan mensual de Tiendanube','SEO avanzado','Asesoramiento jurídico'].map(t => outPool.find(x=>x.text===t));
+    const inCount = `${MODS.length} módulos`;
+    const outCount = `${OUT['32'].length + OUT['20'].length} ítems`;
+    if (!q) { inList = MODS.map(m => ({text:(PARENT[m.n]?'— ':'')+m.t})); outList = [...OUT['32'], ...OUT['20']].map(t => ({text:t})); }
+    else { if (!inList.length) inList = [{text:'Sin coincidencias', src:''}]; if (!outList.length) outList = [{text:'Sin coincidencias', src:''}]; inList = inList.slice(0,10); outList = outList.slice(0,10); }
+    const suggestions = ['Hosting','Fotos','Mercado Pago','SEO','Formulario','Instagram','Dominio'].map(l => ({label:l, pick:() => this.setState({query:l})}));
+
+    const matDone = MATS.filter(m => s.mats[m]).length;
+    const materials = MATS.map((m,i) => { const on=false; return {label:m, num:String(i+1).padStart(2,'0'), mark:'',
+      toggle:() => this.setState(st => ({mats:{...st.mats,[m]:!st.mats[m]}}), () => this.save()),
+      style:px(`all:unset;box-sizing:border-box;cursor:pointer;display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:14px;font-size:15px;transition:all .2s;${on?'background:#0B1220;color:#F4F7FC':'background:#FFFFFF;border:1px solid #DCE3EE;color:#0B1220'}`),
+      boxStyle:px(`width:20px;height:20px;flex:none;border-radius:6px;display:grid;place-items:center;font-size:12px;${on?'background:#2F6FD0;color:#fff':'border:1px solid #9AA6BA'}`)}; });
+
+    const allOpen = CONDS.every(c => s.openConds[c.n]);
+    const conds = CONDS.map(c => { const o=!!s.openConds[c.n]; return {num:String(c.n).padStart(2,'0'), title:c.t, paras:c.p, items:c.it||[], hasItems:!!c.it, open:o, sign:o?'−':'+',
+      toggle:() => this.setState(st => ({openConds:{...st.openConds,[c.n]:!st.openConds[c.n]}}))}; });
+
+    const until = new Date(2026,9,14,23,59), now = new Date();
+    const days = Math.max(0, Math.ceil((until - now)/86400000));
+    const canAccept = s.signName.trim().length > 2 && s.agree;
+    return {
+      clientName: P.clientName ?? 'Torrent',
+      sitemap, phases, modules, stages, payments, currencies,
+      isArs: cur==='ARS', rate,
+      setRate: e => this.setState({rate:e.target.value}),
+      totalLabel: amt(2000), totalHint: cur==='ARS' ? (r>0 ? `Referencia: USD 2.000 × ${fmt(r)}` : 'Ingresá la cotización acordada') : (cur==='USDT' ? 'Equivalente 1:1 a USD 2.000' : 'Valor total del proyecto'),
+      query: s.query, hasQuery: !!s.query, setQuery: e => this.setState({query:e.target.value}), clearQuery: () => this.setState({query:''}),
+      suggestions, inList, outList, inCount, outCount,
+      materials, matDone, matTotal: MATS.length, matPct: Math.round(matDone/MATS.length*100)+'%',
+      conds, allCondsLabel: allOpen ? 'Cerrar todo' : 'Expandir todo',
+      toggleAllConds: () => this.setState({openConds: allOpen ? {} : Object.fromEntries(CONDS.map(c=>[c.n,true]))}),
+      daysLeft: days, daysLabel: days===0 ? 'Presupuesto vencido — consultar revisión' : (days===1 ? 'día de validez restante' : 'días de validez restantes'),
+      notAccepted: !s.accepted, accepted: !!s.accepted,
+      signName: s.signName, setSignName: e => this.setState({signName:e.target.value}),
+      toggleAgree: () => this.setState({agree:!s.agree}),
+      agreeBox: px(`width:20px;height:20px;flex:none;border-radius:6px;display:grid;place-items:center;font-size:12px;${s.agree?'background:#8DB6EE;color:#0B1220':'border:1px solid #56627A'}`),
+      agreeMark: s.agree ? '✓' : '',
+      acceptStyle: px(`all:unset;box-sizing:border-box;text-align:center;padding:18px 28px;border-radius:999px;font-size:16px;font-weight:500;transition:all .2s;${canAccept?'cursor:pointer;background:#2F6FD0;color:#fff':'cursor:not-allowed;background:#1E2A3F;color:#56627A'}`),
+      accept: () => { if (!canAccept) return; this.setState({accepted:{name:s.signName.trim(), date:new Date().toLocaleDateString('es-AR',{day:'2-digit',month:'long',year:'numeric'})}}, () => this.save()); },
+      acceptedName: s.accepted?.name || '', acceptedDate: s.accepted?.date || '',
+      undoAccept: () => this.setState({accepted:null, agree:false}, () => this.save()),
+      printIt: () => window.print()
+    };
+  }
+}
+</script>
+</body>
+</html>

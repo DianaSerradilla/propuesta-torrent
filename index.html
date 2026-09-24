@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Presupuesto · Torrent — Web institucional + Tiendanube</title>
+  <meta name="description"
+    content="Propuesta de diseño y desarrollo web institucional + implementación de Tiendanube para Torrent.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="hero" data-screen-label="Hero">
+    <div class="hero-card">
+      <div class="hero-main">
+        <div class="brand">
+          <div class="brand-logo" role="img" aria-label="Torrent"></div>
+          <div class="brand-meta"><span>Propuesta para Torrent</span><span>Emitido 24.09.2026</span><span>Válido hasta
+              15.10.2026</span></div>
+        </div>
+        <h1>Web institucional <span class="plus">+</span> tienda online, <em>a medida.</em></h1>
+        <p class="hero-lead">Diseño, desarrollo, configuración y puesta online de una web institucional a medida, junto
+          con la creación y personalización de una tienda en Tiendanube. Una presencia digital coherente con la
+          identidad de la marca, clara, moderna y adaptable a cualquier dispositivo.</p>
+        <div class="stats">
+          <div class="stat"><span>Inversión total</span><strong>USD 2.000</strong></div>
+          <div class="stat"><span>Plazo estimado</span><strong>6 semanas</strong></div>
+          <div class="stat"><span>Productos</span><strong>hasta 50</strong></div>
+          <div class="stat"><span>Soporte</span><strong>30 días</strong></div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="https://images.pexels.com/photos/4005229/pexels-photo-4005229.jpeg?auto=compress&cs=tinysrgb&w=2000"
+          alt="Mesa de fiambres y quesos" fetchpriority="high">
+        <div class="hero-tag"><i></i>Web + Tiendanube</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="alcance" class="section wrap" data-screen-label="Alcance">
+      <div class="section-head" data-reveal>
+        <div><span class="eyebrow">01 — 08</span>
+          <h2 class="h2">Alcance del proyecto</h2>
+        </div>
+        <div class="seg" id="phases" role="tablist"></div>
+      </div>
+      <div class="modules" id="modules"></div>
+    </section>
+
+    <section id="etapas" class="section wrap" data-screen-label="Etapas" style="padding-top:0">
+      <div class="mosaic" style="margin:0 0 clamp(64px,8vw,112px)">
+        <figure data-reveal="img"><img loading="lazy"
+            src="https://images.pexels.com/photos/27595859/pexels-photo-27595859.jpeg?auto=compress&cs=tinysrgb&w=1400"
+            alt="Mostrador de fiambrería con embutidos"></figure>
+        <figure data-reveal="img" style="--d:.12s"><img loading="lazy"
+            src="https://images.pexels.com/photos/8250416/pexels-photo-8250416.jpeg?auto=compress&cs=tinysrgb&w=900"
+            alt="Salames artesanales en fila"></figure>
+        <figure data-reveal="img" style="--d:.24s"><img loading="lazy"
+            src="https://images.pexels.com/photos/1927385/pexels-photo-1927385.jpeg?auto=compress&cs=tinysrgb&w=900"
+            alt="Salame en fetas sobre tabla de madera"></figure>
+      </div>
+      <div data-reveal>
+        <span class="eyebrow">Cronograma</span>
+        <h2 class="h2">Seis semanas, <em>tres hitos.</em></h2>
+        <p class="lead">Desde el inicio efectivo del proyecto. La aprobación de cada etapa habilita la siguiente. Las
+          demoras por falta de material, accesos o devoluciones no se computan dentro del plazo.</p>
+      </div>
+      <div class="stages" id="stages"></div>
+    </section>
+
+    <section id="inversion" class="section wrap" data-screen-label="Inversión" style="padding-top:0">
+      <div class="invest">
+        <div data-reveal>
+          <span class="eyebrow">Forma de pago</span>
+          <h2 class="h2">Inversión</h2>
+          <p style="font-size:16px;color:var(--muted);margin-top:16px">Diseño UX/UI + Desarrollo Web Institucional +
+            Implementación de Tiendanube</p>
+          <div class="total" id="total">USD 2.000</div>
+          <div class="total-hint" id="total-hint">Valor total del proyecto</div>
+          <div class="currency">
+            <div class="seg" id="currency" style="width:max-content;max-width:100%"></div>
+            <div class="rate" id="rate">
+              <label>Cotización acordada · 1 USD = <span class="field">ARS <input id="rate-input" inputmode="numeric"
+                    value="1400" aria-label="Cotización"></span></label>
+              <p>En pesos, el importe se recalcula al momento de cada pago sobre el saldo expresado en USD, según la
+                cotización del día efectivo del pago.</p>
+            </div>
+          </div>
+        </div>
+        <div class="pay-card" data-reveal style="--d:.15s">
+          <div class="bar"><span></span><span></span><span></span></div>
+          <div id="payments"></div>
+          <div class="pay-foot">
+            <span>El proyecto comienza una vez acreditado el primer pago.</span>
+            <span>Se acepta USD, USDT o ARS. Costos y comisiones del medio de pago a cargo del cliente, salvo acuerdo
+              diferente.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="incluye" class="section wrap" data-screen-label="¿Incluye?" style="padding-top:0">
+      <div data-reveal>
+        <span class="eyebrow">Exclusiones</span>
+        <h2 class="h2">¿Está incluido?</h2>
+      </div>
+      <div class="inc">
+        <div class="inc-card" data-reveal>
+          <div class="inc-top">
+            <h3>Incluido</h3><span id="in-count"></span>
+          </div>
+          <div class="inc-cols" id="in-list"></div>
+        </div>
+        <div class="inc-card is-dark" data-reveal>
+          <div class="inc-top">
+            <h3>No incluido</h3><span id="out-count"></span>
+          </div>
+          <div class="inc-cols" id="out-list"></div>
+        </div>
+      </div>
+      <div class="callout" data-reveal>
+        <div>
+          <span class="eyebrow">Importante</span>
+          <p>Los servicios de terceros se contratan y abonan directamente por el cliente.</p>
+          <div class="chips"><span>Tiendanube</span><span>Hosting</span><span>Dominio</span><span>Pasarelas de
+              pago</span><span>Logística</span><span>APIs</span></div>
+        </div>
+        <div>
+          <span class="eyebrow">Después del soporte</span>
+          <p>Los trabajos posteriores a los 30 días de soporte se presupuestan individualmente.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="materiales" class="section wrap" data-screen-label="Materiales" style="padding-top:0">
+      <div class="mat">
+        <div data-reveal>
+          <span class="eyebrow">Materiales</span>
+          <h2 class="h2">Lo que necesito <em>de tu lado.</em></h2>
+          <p class="lead">Para cumplir el plazo, necesito recibir esta información y materiales al inicio del proyecto.
+          </p>
+          <figure class="mat-img" data-reveal="img" style="margin-left:0;margin-right:0;margin-bottom:0"><img
+              loading="lazy"
+              src="https://images.pexels.com/photos/5732759/pexels-photo-5732759.jpeg?auto=compress&cs=tinysrgb&w=1000"
+              alt="Tabla de fiambres y quesos"></figure>
+        </div>
+        <ul class="mat-list" id="materials"></ul>
+      </div>
+    </section>
+
+    <section id="condiciones" class="section wrap" data-screen-label="Condiciones" style="padding-top:0">
+      <div class="section-head" data-reveal>
+        <div><span class="eyebrow">Condiciones</span>
+          <h2 class="h2">La letra chica, <em>clara.</em></h2>
+        </div>
+        <button class="btn-line" id="toggle-conds">Expandir todo</button>
+      </div>
+      <div class="conds" id="conds"></div>
+    </section>
+
+    <section id="aceptar" class="wrap" data-screen-label="Aceptación" style="padding-bottom:24px">
+      <div class="accept" data-reveal>
+        <div class="accept-bg"><img loading="lazy"
+            src="https://images.pexels.com/photos/28881693/pexels-photo-28881693.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""></div>
+        <div>
+          <span class="eyebrow">Validez</span>
+          <div class="days" id="days">—</div>
+          <div class="days-label" id="days-label">días de validez restantes</div>
+          <p class="accept-note">Validez de 3 semanas desde la emisión (24.09.2026). Finalizado el período, el valor,
+            las condiciones y la disponibilidad podrán revisarse antes de comenzar.</p>
+        </div>
+        <div class="accept-cta">
+          <h2>Aceptación</h2>
+          <p>La aprobación del presente presupuesto y el pago inicial implican la aceptación del alcance, condiciones,
+            exclusiones y modalidad de trabajo aquí detallados.</p>
+          <a class="btn-wa" href="https://wa.me/5492615523328?text=Acepto%20presupuesto" target="_blank"
+            rel="noopener">Aceptar presupuesto por WhatsApp <i>→</i></a>
+        </div>
+      </div>
+      <div class="foot"><span>Torrent · Presupuesto web</span><span>Fotografías: Pexels</span></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

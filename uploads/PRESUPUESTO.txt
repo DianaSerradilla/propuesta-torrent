@@ -1,0 +1,1225 @@
+﻿PRESUPUESTO
+
+
+Diseño y Desarrollo Web Institucional + Implementación de Tiendanube
+
+
+Valor total del proyecto: USD 2.000
+
+
+El presente presupuesto contempla el diseño, desarrollo, configuración y puesta online de una web institucional desarrollada a medida, junto con la creación y personalización de una tienda online en Tiendanube.
+
+
+El objetivo del proyecto es desarrollar una presencia digital coherente con la identidad actual de la marca, ofreciendo una experiencia clara, moderna y adaptable a distintos dispositivos, complementada con un canal de venta online completamente funcional.
+
+
+1. DISEÑO UX/UI
+
+
+Se realizará el diseño visual completo del proyecto desde cero en Figma, tomando como base la identidad visual existente de la marca.
+
+
+Incluye:
+
+
+Definición de estructura general del sitio.
+
+
+Arquitectura básica de contenidos.
+
+
+Diseño UX/UI personalizado.
+
+
+Definición de jerarquías visuales.
+
+
+Aplicación de colores, tipografías y recursos gráficos de la marca.
+
+
+Diseño de botones, tarjetas, banners y demás componentes necesarios.
+
+
+Diseño de navegación principal y footer.
+
+
+Adaptación visual para desktop, tablet y dispositivos móviles.
+
+
+Prototipo visual previo al comienzo del desarrollo.
+
+
+Secciones contempladas
+
+
+Inicio.
+
+
+Nosotros.
+
+
+Productos.
+
+
+Recetas.
+
+
+Contacto.
+
+
+Navegación general.
+
+
+Accesos hacia Tiendanube.
+
+
+La sección Recetas estará orientada a mostrar diferentes contenidos o preparaciones, pudiendo vincular cada una de ellas con publicaciones o videos alojados en Instagram.
+
+
+2. DESARROLLO WEB INSTITUCIONAL
+
+
+La web institucional será desarrollada a medida mediante código, respetando el diseño previamente aprobado.
+
+
+Incluye:
+
+
+Desarrollo frontend personalizado.
+
+
+Maquetación responsive.
+
+
+Adaptación para desktop, tablet y dispositivos móviles.
+
+
+Implementación de navegación.
+
+
+Implementación de botones y enlaces.
+
+
+Integración de medios de contacto.
+
+
+Integración con redes sociales.
+
+
+Integración con Instagram cuando corresponda.
+
+
+Integración y acceso hacia la tienda online.
+
+
+Implementación de contenidos proporcionados o desarrollados para el proyecto.
+
+
+Optimización básica de imágenes.
+
+
+Optimización básica de rendimiento.
+
+
+Compatibilidad con navegadores modernos.
+
+
+Revisión general previa a publicación.
+
+
+3. SECCIÓN INICIO
+
+
+Podrá incluir, según lo definido durante la etapa de diseño:
+
+
+Presentación principal de la marca.
+
+
+Banners destacados.
+
+
+Productos o categorías destacadas.
+
+
+Accesos a la tienda.
+
+
+Información institucional relevante.
+
+
+Beneficios o diferenciales.
+
+
+Accesos a recetas.
+
+
+Redes sociales.
+
+
+Llamados a la acción.
+
+
+Información de contacto.
+
+
+La estructura definitiva se establecerá durante el proceso de diseño UX/UI.
+
+
+4. SECCIÓN NOSOTROS
+
+
+Podrá contemplar:
+
+
+Historia de la empresa.
+
+
+Filosofía de marca.
+
+
+Valores.
+
+
+Diferenciales.
+
+
+Información institucional.
+
+
+Fotografías proporcionadas por el cliente.
+
+
+5. SECCIÓN PRODUCTOS
+
+
+Desarrollo de una sección institucional destinada a presentar las distintas líneas, categorías o productos de la marca.
+
+
+Podrá incluir:
+
+
+Categorías.
+
+
+Productos destacados.
+
+
+Fotografías.
+
+
+Descripciones breves.
+
+
+Botones de compra.
+
+
+Accesos directos hacia Tiendanube.
+
+
+La gestión del carrito, pagos, pedidos y proceso de compra se realizará dentro de Tiendanube.
+
+
+6. SECCIÓN RECETAS
+
+
+Incluye:
+
+
+Diseño de tarjetas o bloques de recetas.
+
+
+Imagen de portada.
+
+
+Título.
+
+
+Descripción breve cuando corresponda.
+
+
+Botón o enlace externo.
+
+
+Vinculación con contenidos publicados en Instagram.
+
+
+Los videos permanecerán alojados en Instagram.
+
+
+7. SECCIÓN CONTACTO
+
+
+Podrá incluir:
+
+
+Información de contacto.
+
+
+Teléfono.
+
+
+WhatsApp.
+
+
+Correo electrónico.
+
+
+Redes sociales.
+
+
+Botones de contacto directo.
+
+
+Dirección o ubicación comercial.
+
+
+Horarios de atención.
+
+
+No se contempla inicialmente el desarrollo de un formulario de contacto.
+
+
+En caso de requerirse posteriormente un formulario con almacenamiento de información, automatizaciones o integraciones externas, podrá ser evaluado y presupuestado por separado.
+
+
+8. CREACIÓN Y CONFIGURACIÓN DE TIENDANUBE
+
+
+Incluye:
+
+
+Creación y configuración general de la tienda.
+
+
+Configuración de identidad visual.
+
+
+Configuración de información comercial.
+
+
+Datos generales del negocio.
+
+
+Estructura de navegación.
+
+
+Organización de categorías.
+
+
+Páginas necesarias dentro de la plataforma.
+
+
+Vinculación con la web institucional.
+
+
+9. PERSONALIZACIÓN VISUAL DE TIENDANUBE
+
+
+Se realizará una adaptación visual buscando mantener coherencia con el diseño general de la marca.
+
+
+Incluye:
+
+
+Colores.
+
+
+Tipografías.
+
+
+Banners.
+
+
+Imágenes.
+
+
+Botones.
+
+
+Navegación.
+
+
+Página principal de la tienda.
+
+
+Categorías.
+
+
+Fichas de producto.
+
+
+Elementos visuales disponibles dentro de Tiendanube.
+
+
+Personalización mediante código cuando la plataforma y el plan contratado lo permitan.
+
+
+La personalización estará sujeta a las posibilidades técnicas y limitaciones propias de Tiendanube.
+
+
+10. CARGA DE PRODUCTOS
+
+
+Se contempla la configuración y carga de hasta:
+
+
+50 productos.
+
+
+Incluye:
+
+
+Nombre.
+
+
+Fotografías proporcionadas por el cliente.
+
+
+Descripción.
+
+
+Precio.
+
+
+Categoría.
+
+
+Variantes cuando corresponda.
+
+
+Stock inicial proporcionado por el cliente.
+
+
+Información básica del producto.
+
+
+Organización dentro del catálogo.
+
+
+Los productos adicionales podrán presupuestarse por separado.
+
+
+11. MEDIOS DE PAGO
+
+
+Configuración inicial de los medios seleccionados por el cliente y compatibles con Tiendanube.
+
+
+Puede contemplar:
+
+
+Mercado Pago.
+
+
+Transferencia bancaria.
+
+
+Otros medios disponibles dentro de la plataforma.
+
+
+La creación, verificación, aprobación y mantenimiento de las cuentas correspondientes será responsabilidad del cliente.
+
+
+12. ENVÍOS
+
+
+Configuración inicial de:
+
+
+Envíos a domicilio.
+
+
+Retiro en punto físico.
+
+
+Tarifas de envío.
+
+
+Zonas de entrega.
+
+
+Integraciones disponibles dentro de Tiendanube.
+
+
+Los costos asociados a proveedores logísticos no se encuentran incluidos.
+
+
+13. DOMINIO
+
+
+Incluye la configuración técnica necesaria para vincular el dominio proporcionado o contratado por el cliente.
+
+
+El costo de compra, renovación o transferencia del dominio no se encuentra incluido.
+
+
+14. COPYWRITING
+
+
+Se contempla la redacción y adaptación de textos generales necesarios para el proyecto.
+
+
+Incluye:
+
+
+Adaptación de textos proporcionados.
+
+
+Redacción de textos institucionales básicos.
+
+
+Corrección de estilo.
+
+
+Ajustes de tono.
+
+
+Títulos.
+
+
+Subtítulos.
+
+
+Llamados a la acción.
+
+
+Descripciones generales.
+
+
+No incluye desarrollo integral de estrategia verbal, naming o branding.
+
+
+15. SEO BÁSICO
+
+
+Incluye:
+
+
+Estructura correcta de encabezados.
+
+
+Títulos de páginas.
+
+
+Meta descripciones básicas.
+
+
+URLs claras cuando corresponda.
+
+
+Textos alternativos en imágenes relevantes.
+
+
+Optimización básica de contenido.
+
+
+Estructura semántica adecuada.
+
+
+No incluye campañas SEO, posicionamiento garantizado, link building ni generación periódica de contenido.
+
+
+16. OPTIMIZACIÓN Y TESTING
+
+
+Incluye:
+
+
+Compresión básica de imágenes.
+
+
+Revisión de peso de recursos.
+
+
+Adaptación responsive.
+
+
+Revisión de navegación.
+
+
+Revisión de enlaces.
+
+
+Revisión en navegadores modernos.
+
+
+Revisión del carrito.
+
+
+Revisión general del flujo de compra.
+
+
+Corrección de errores vinculados al desarrollo antes del lanzamiento.
+
+
+17. PUESTA ONLINE Y ENTREGA
+
+
+Una vez aprobadas las etapas correspondientes se procederá a:
+
+
+Publicación de la web institucional.
+
+
+Vinculación con dominio.
+
+
+Publicación de Tiendanube.
+
+
+Integración entre ambos sitios.
+
+
+Revisión posterior a publicación.
+
+
+Entrega del proyecto completamente funcional.
+
+
+18. PLAZO ESTIMADO
+
+
+El plazo estimado para completar el proyecto es de:
+
+
+4 semanas a partir del inicio efectivo del proyecto.
+
+
+Este plazo contempla el proceso de diseño, revisión, desarrollo, configuración, testing y publicación.
+
+
+El plazo se encuentra sujeto al cumplimiento de los tiempos de entrega de información, materiales, accesos y devoluciones por parte del cliente.
+
+
+Las demoras ocasionadas por falta de material, accesos, aprobaciones, contenido o respuestas del cliente no serán computadas dentro de las 4 semanas estimadas y podrán extender proporcionalmente la fecha de entrega.
+
+
+El cronograma también podrá modificarse cuando se soliciten cambios adicionales o modificaciones fuera del alcance originalmente acordado.
+
+
+19. REVISIONES Y APROBACIONES
+
+
+Las modificaciones principales deberán solicitarse durante la etapa de diseño en Figma.
+
+
+La aprobación de una etapa habilita el inicio de la etapa siguiente.
+
+
+Una vez aprobado el diseño y comenzado el desarrollo, los cambios estructurales o rediseños podrán requerir una actualización del presupuesto y del plazo de entrega.
+
+
+Las correcciones destinadas a resolver errores propios del desarrollo no serán consideradas cambios adicionales.
+
+
+20. SOPORTE POSTERIOR
+
+
+El proyecto contempla:
+
+
+30 días de soporte posteriores a su publicación.
+
+
+Incluye:
+
+
+Corrección de errores vinculados al desarrollo realizado.
+
+
+Corrección de enlaces.
+
+
+Ajustes menores de funcionamiento.
+
+
+Resolución de problemas derivados de la implementación inicial.
+
+
+Pequeñas correcciones de contenido.
+
+
+No incluye:
+
+
+Nuevas secciones.
+
+
+Nuevas funcionalidades.
+
+
+Rediseños.
+
+
+Carga permanente de productos.
+
+
+Actualización continua de precios o stock.
+
+
+Nuevas integraciones.
+
+
+Una vez finalizado este período, los trabajos posteriores podrán presupuestarse individualmente.
+
+
+21. INVERSIÓN
+
+
+Diseño UX/UI + Desarrollo Web Institucional + Implementación de Tiendanube
+
+
+USD 2.000
+
+
+22. FORMA DE PAGO
+
+
+Se propone la siguiente modalidad:
+
+
+50% — Inicio del proyecto
+USD 1.000
+
+
+30% — Aprobación del diseño y comienzo del desarrollo
+USD 600
+
+
+20% — Entrega final y publicación
+USD 400
+
+
+El proyecto comenzará una vez acreditado el primer pago.
+
+
+Monedas y medios aceptados
+
+
+Los pagos podrán realizarse mediante:
+
+
+Dólares estadounidenses (USD).
+
+
+USDT.
+
+
+Pesos argentinos (ARS), tomando como referencia la cotización acordada correspondiente al día efectivo del pago.
+
+
+Cuando el pago se realice en pesos argentinos, el importe será recalculado al momento de cada pago sobre el saldo expresado originalmente en dólares estadounidenses.
+
+
+Los costos, comisiones o cargos derivados del medio utilizado para realizar el pago estarán a cargo del cliente, salvo acuerdo diferente entre las partes.
+
+
+23. SERVICIOS Y COSTOS DE TERCEROS
+
+
+El presupuesto profesional no incluye costos correspondientes a plataformas o proveedores externos.
+
+
+Entre ellos:
+
+
+Tiendanube.
+
+
+Hosting.
+
+
+Dominio.
+
+
+Aplicaciones pagas.
+
+
+Mercado Pago u otras pasarelas.
+
+
+Servicios logísticos.
+
+
+APIs.
+
+
+Plataformas de email.
+
+
+Servicios de almacenamiento.
+
+
+Herramientas externas.
+
+
+Estos servicios deberán ser contratados y abonados directamente por el cliente.
+
+
+Los cambios de precio, condiciones comerciales, funcionamiento, disponibilidad o políticas de dichos proveedores son ajenos al profesional.
+
+
+24. RESPONSABILIDAD SOBRE CONTENIDOS
+
+
+El cliente será responsable de la veracidad, legalidad y autorización de uso de todos los materiales proporcionados para el proyecto.
+
+
+Esto incluye, entre otros:
+
+
+Fotografías.
+
+
+Videos.
+
+
+Logotipos.
+
+
+Tipografías.
+
+
+Textos proporcionados.
+
+
+Marcas.
+
+
+Información comercial.
+
+
+Precios.
+
+
+Promociones.
+
+
+Datos de productos.
+
+
+Declaraciones comerciales.
+
+
+El cliente declara contar con los derechos y autorizaciones necesarias para utilizar los materiales entregados.
+
+
+El profesional no será responsable por reclamos de terceros originados en materiales proporcionados por el cliente.
+
+
+25. INFORMACIÓN COMERCIAL Y OPERACIÓN DE LA TIENDA
+
+
+Una vez entregado el proyecto, será responsabilidad del cliente mantener actualizada y correcta la información comercial publicada.
+
+
+Esto incluye:
+
+
+Precios.
+
+
+Stock.
+
+
+Descripciones.
+
+
+Promociones.
+
+
+Políticas de envío.
+
+
+Plazos de entrega.
+
+
+Medios de pago.
+
+
+Información fiscal.
+
+
+Información societaria.
+
+
+Condiciones de venta.
+
+
+Políticas de devolución o cambio.
+
+
+El profesional será responsable de implementar técnicamente la información proporcionada dentro del alcance acordado, pero no de determinar su validez comercial, fiscal o jurídica.
+
+
+26. PRIVACIDAD Y DATOS PERSONALES
+
+
+En caso de que la web o la tienda recopile información personal de usuarios o compradores, el cliente será responsable de definir y mantener las políticas legales correspondientes al tratamiento de dichos datos.
+
+
+La normativa argentina vigente protege los datos personales y regula su tratamiento mediante la Ley 25.326.
+
+
+Esto puede comprender, según corresponda:
+
+
+Política de privacidad.
+
+
+Tratamiento de datos personales.
+
+
+Cookies y tecnologías similares.
+
+
+Uso de herramientas de analítica.
+
+
+Bases de datos de clientes.
+
+
+Comunicaciones comerciales.
+
+
+La redacción jurídica especializada de políticas de privacidad, términos legales o documentos regulatorios no forma parte del presente presupuesto, salvo contratación adicional.
+
+
+27. CONDICIONES DE VENTA Y DEFENSA DEL CONSUMIDOR
+
+
+La tienda deberá cumplir con las obligaciones comerciales y de información que correspondan a la actividad del cliente.
+
+
+La Ley 24.240 establece, entre otras cuestiones, obligaciones de brindar al consumidor información cierta, clara y detallada sobre los productos o servicios y sus condiciones de comercialización.
+
+
+La elaboración o validación jurídica de:
+
+
+Términos y condiciones.
+
+
+Políticas de devolución.
+
+
+Políticas de cambios.
+
+
+Condiciones de venta.
+
+
+Información fiscal obligatoria.
+
+
+Políticas de garantía.
+
+
+Documentación legal específica.
+
+
+será responsabilidad del cliente y, cuando corresponda, deberá ser revisada por un profesional jurídico o contable.
+
+
+El alcance del presente trabajo contempla únicamente su implementación técnica cuando el cliente suministre dichos contenidos.
+
+
+28. INTERRUPCIONES O CAMBIOS DE SERVICIOS EXTERNOS
+
+
+El profesional no será responsable por fallas, interrupciones o modificaciones originadas en servicios ajenos al desarrollo realizado.
+
+
+Esto incluye especialmente:
+
+
+Tiendanube.
+
+
+Hosting.
+
+
+Servidores.
+
+
+Dominios.
+
+
+APIs.
+
+
+Instagram.
+
+
+Mercado Pago.
+
+
+Proveedores logísticos.
+
+
+Servicios de terceros.
+
+
+En caso de que un cambio realizado posteriormente por una plataforma externa requiera modificaciones en el proyecto, dichas modificaciones podrán presupuestarse independientemente.
+
+
+29. CANCELACIÓN O SUSPENSIÓN DEL PROYECTO
+
+
+En caso de que el cliente decida cancelar el proyecto una vez iniciado, los pagos correspondientes a etapas ya comenzadas o completadas no serán reintegrables.
+
+
+Se entregará, cuando corresponda, el trabajo realizado hasta ese momento una vez abonados los importes correspondientes a las etapas desarrolladas.
+
+
+Si el proyecto permanece detenido por falta de información, respuesta, materiales o aprobaciones del cliente durante un período prolongado, el cronograma original quedará sin efecto y deberá coordinarse una nueva fecha de continuación según disponibilidad.
+
+
+30. CAMBIOS ADICIONALES
+
+
+Toda solicitud que exceda el alcance especificado en este documento será evaluada antes de su realización.
+
+
+Dependiendo de su complejidad podrá:
+
+
+incluirse dentro del alcance;
+
+
+presupuestarse como una intervención adicional;
+
+
+o requerir un presupuesto independiente.
+
+
+Ningún trabajo adicional significativo será realizado sin informar previamente al cliente.
+
+
+31. PROPIEDAD, ENTREGA Y USO EN PORTFOLIO
+
+
+Una vez completado el pago total del proyecto, se realizará la entrega definitiva del trabajo correspondiente al alcance acordado.
+
+
+El cliente contará con acceso a:
+
+
+Tiendanube.
+
+
+Dominio y configuraciones correspondientes.
+
+
+Proyecto publicado.
+
+
+Recursos finales necesarios para la utilización del sitio.
+
+
+El profesional podrá utilizar el proyecto, total o parcialmente, con fines de:
+
+
+Portfolio.
+
+
+Sitio web profesional.
+
+
+Redes sociales.
+
+
+Casos de estudio.
+
+
+Presentaciones profesionales.
+
+
+Propuestas comerciales.
+
+
+Difusión de trabajos realizados.
+
+
+Esto podrá incluir capturas de pantalla, mockups, piezas visuales, descripción general del proyecto y referencia a la marca o empresa.
+
+
+No se publicará información confidencial, accesos, datos privados, información comercial interna ni cualquier otro contenido expresamente identificado como confidencial.
+
+
+Cualquier restricción especial respecto de la publicación del proyecto deberá acordarse por escrito antes del inicio del trabajo.
+
+
+32. NO INCLUIDO
+
+
+El presupuesto no contempla:
+
+
+Fotografía de producto.
+
+
+Producción fotográfica.
+
+
+Producción audiovisual.
+
+
+Filmación o edición de videos.
+
+
+Creación de Reels.
+
+
+Gestión de redes sociales.
+
+
+Community management.
+
+
+Publicidad.
+
+
+Branding.
+
+
+Rediseño de logotipo.
+
+
+Desarrollo de identidad visual completa.
+
+
+Naming.
+
+
+Hosting.
+
+
+Dominio.
+
+
+Plan mensual de Tiendanube.
+
+
+Comisiones de plataformas de pago.
+
+
+Aplicaciones pagas.
+
+
+Servicios externos.
+
+
+Plataformas de email marketing.
+
+
+Servicios logísticos.
+
+
+Carga de más de 50 productos.
+
+
+Gestión continua de catálogo.
+
+
+Actualización permanente de precios o stock.
+
+
+Generación periódica de recetas.
+
+
+SEO avanzado.
+
+
+Posicionamiento garantizado.
+
+
+Integraciones no contempladas inicialmente.
+
+
+ERP.
+
+
+Sistemas administrativos personalizados.
+
+
+Asesoramiento contable.
+
+
+Asesoramiento impositivo.
+
+
+Asesoramiento jurídico.
+
+
+Redacción jurídica de políticas de privacidad, términos y condiciones u otros textos legales.
+
+
+33. MATERIAL A ENTREGAR POR EL CLIENTE
+
+
+Será necesario contar con:
+
+
+Logotipo.
+
+
+Manual de identidad, en caso de existir.
+
+
+Fotografías institucionales.
+
+
+Fotografías de producto.
+
+
+Información de productos.
+
+
+Precios.
+
+
+Variantes.
+
+
+Stock.
+
+
+Categorías.
+
+
+Información comercial.
+
+
+Datos de contacto.
+
+
+Redes sociales.
+
+
+Datos necesarios para medios de pago.
+
+
+Información de métodos de envío.
+
+
+Accesos al dominio.
+
+
+Información institucional necesaria para desarrollar los contenidos.
+
+
+34. VALIDEZ DEL PRESUPUESTO
+
+
+El presente presupuesto posee una validez de 3 semanas a partir de su fecha de emisión.
+
+
+Finalizado dicho período, tanto el valor como las condiciones y disponibilidad podrán ser revisados antes del comienzo del proyecto.
+
+
+ACEPTACIÓN
+
+
+La aprobación del presente presupuesto y el pago inicial implican la aceptación del alcance, condiciones, exclusiones y modalidad de trabajo aquí detallados.
